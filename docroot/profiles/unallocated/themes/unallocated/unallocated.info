@@ -13,6 +13,7 @@ regions[branding] = Branding
 regions[menu] = Menu
 regions[sidebar_first] = Sidebar first
 regions[preface_first] = Preface first
+regions[bottom_logo] = Bottom Logo
 regions[postscript_first] = Postscript first
 regions[post_postscript] = Post postscript
 regions[content] = Content

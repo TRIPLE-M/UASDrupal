@@ -7,6 +7,8 @@ $fullWidthNav = '"nav sixteen columns"';
 $ColumnAWidth = '"five columns alpha"';
 $ColumnBWidth = '"eleven columns omega"';
 
+$ColumnBottomWidth ='"four columns"';
+
 //Prints Heading based on Values
 print ("<div class= 'top_zone'>");
 print ("<div class= 'container'>");
@@ -61,14 +63,23 @@ print ("</div>");
 print ("<div class= 'bottom_zone'>");
 print ("<div class= 'container'>");
 
-	print ("<div class= $fullWidth>");
-	print render($page['preface_first']);	
+	print ("<div class= $ColumnBottomWidth>");	
+	print render($page['bottom_logo']);	
+	print ("</div>");
+
+	print ("<div class= $ColumnBottomWidth>");	
 	print render($page['postscript_first']);	
 	print ("</div>");
 
-	print ("<div class= $fullWidth>");
+	print ("<div class= $ColumnBottomWidth>");
+	print render($page['preface_first']);		
+	print ("</div>");
+
+
+	print ("<div class= $ColumnBottomWidth>");
 	print render($page['post_postscript']);
 	print ("</div>");
+	
 	print ("</div>");
 	print ("</div>");
 ?>  
