@@ -8,7 +8,7 @@ stylesheets[all][] = css/layout.css
 scripts[] = scripts/foutbgone.js
 scripts[] = scripts/menu.js
 
-regions[user_bar_first] = User bar first
+regions[user_bar_first] = User Bar first
 regions[branding] = Branding
 regions[menu] = Menu
 regions[sidebar_first] = Sidebar first
@@ -18,3 +18,4 @@ regions[post_postscript] = Post postscript
 regions[content] = Content
 
 features[] = favicon
+features[] = logo

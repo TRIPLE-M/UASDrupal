@@ -12,15 +12,17 @@ $ColumnBWidth = '"eleven columns omega"';
 print ("<div class= 'container'>");
 
 print ("<div class= $third>");
-print render($page['branding']);
+//print render($page['branding']);
 print ("</div>");
 
 print ("<div class= $third>");
-
-?>
-        //Logo Code Goes Here
-<?php
-
+if ($logo): ?>
+      <a href="<?php print $front_page; ?>" title="<?php  print t('Home'); ?>" rel="home" id="logo">
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+      </a>
+    <?php endif; ?>
+    
+ <?php
 print ("</div>");
 
 
@@ -33,7 +35,7 @@ print ("<div class= 'container'>");
 
 //Special div for Navigation elements
 print ("<div class= $fullWidthNav>");
-print render($page['menu']);
+//print render($page['menu']);
 print ("</div>");
 
 //Main Content section, with Sidebar relivence check
@@ -47,9 +49,11 @@ print ("<div class= 'core container'>");
 	print ("<div class= $ColumnAWidth>");  
 	print render($page['sidebar_first']);
 	print ("</div>");
+	
 	print ("<div class= $ColumnBWidth>");  	
 	print render($page['content']);	
 	print ("</div>");
+	
 print ("</div>");
  }
  
