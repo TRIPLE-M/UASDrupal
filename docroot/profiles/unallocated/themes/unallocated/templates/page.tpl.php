@@ -11,7 +11,7 @@ $ColumnBottomWidth ='"four columns"';
 
 //Prints Heading based on Values
 print ("<div class= 'top_zone'>");
-print ("<div class= 'container'>");
+print ("<div class= 'nav container'>");
 if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php  print t('Home'); ?>" rel="home" id="logo">
         <img id="logoImg", src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -25,12 +25,7 @@ print ("<div class= 'container'>");
 
 
 //Special div for Navigation elements
-print ("<div class = 'container'>");
-print ("<div class = 'container'>");
 	print render($page['menu']);
-print ("</div>");
-print ("</div>");
-
 //Main Content section, with Sidebar relivence check
 
 print ("</div>");
