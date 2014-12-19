@@ -63,8 +63,8 @@ print ("</div>");
 print ("<div class= 'bottom_zone'>");
 print ("<div class= 'container'>");
 
-	print ("<div class= $ColumnBottomWidth>");	
-	print render($page['bottom_logo']);	
+	print ("<div class= $ColumnBottomWidth>");
+    print ("<div id='boxes-box-uas_address_box'></div>");	
 	print ("</div>");
 
 	print ("<div class= $ColumnBottomWidth>");	

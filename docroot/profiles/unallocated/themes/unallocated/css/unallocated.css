@@ -22,8 +22,7 @@ margin: 10px;
 {
     display:block;
 	margin: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
 	width: auto;
 	height: 12.5%;
 }
@@ -56,4 +55,13 @@ body
 
 .leaf, .expanded, .collapsed:hover {
   background: #ababab;
+}
+
+#boxes-box-uas_address_box 
+{
+    background: url('../images/logo_inverted.png') no-repeat center top;
+	background-size: contain;
+    padding-top: 130px;
+	margin: 30px;
+    text-align: center;
 }
