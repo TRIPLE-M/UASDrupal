@@ -8,7 +8,7 @@
 /* font declarations - use Oswald for headings, Lato for everything else */
 @font-face {
     font-family: 'GeosansLight';
-        src: url('roboto/Roboto-Medium.ttf') format('truetype');
+        src: url('MSGothic/MSGOTHIC.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 	width: 50%;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'GeosansOblique';
-        src: url('roboto/Roboto-MediumItalic.ttf'), format('truetype');
+        src: url('MSGothic/MSGOTHIC.ttf'), format('truetype');
     font-weight: normal;
     font-style: normal;
 }

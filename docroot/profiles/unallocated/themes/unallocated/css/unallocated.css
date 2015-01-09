@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-.core   		                 	
+#core   		                 	
 {
 background-color: #ffffff;
 min-height: 400px;
@@ -32,13 +32,14 @@ body
 	width: 100%;	
 }
 
-.top_zone, .bottom_zone
+#top_zone, #bottom_zone
 {
 	background: #333;
 	height: auto;
+	color: white;
 }
 
-.top_zone li
+#top_zone, #bottom_zone li
 {
 	  text-decoration: none;
 }
