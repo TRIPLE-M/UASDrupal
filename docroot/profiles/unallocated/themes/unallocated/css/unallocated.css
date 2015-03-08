@@ -22,6 +22,19 @@ margin: 10px;
 	height: 12.5%;
 }
 
+.field-content
+{
+float: left;
+width-min: 128px;
+width-max: 256px;
+height: 128px;
+}
+
+.field-content > img
+{
+
+}
+
 img
 {
 	margin: 10px;
