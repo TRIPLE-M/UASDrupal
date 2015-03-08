@@ -24,15 +24,17 @@ margin: 10px;
 
 .field-content
 {
-float: left;
-width-min: 128px;
-width-max: 256px;
-height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+float: left;	
 }
 
-.field-content > img
+#first-break img, #second-break img
 {
-
+width: auto;
+width-min: 96px;
+width-max: 256px;
+height: 96px;
 }
 
 img
