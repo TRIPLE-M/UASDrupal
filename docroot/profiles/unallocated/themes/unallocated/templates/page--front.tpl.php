@@ -41,13 +41,13 @@ $ColumnBottomWidth ='"four columns"';
   </div>
 </div>
 
-<div id="first-break" class="sixteen columns">
+<div id="first-break" class="sixteen columns break">
   <div class="container">
     <div id="first-break-main" class="sixteen columns"><?php print render($page['first_break']); ?></div>
   </div>
 </div>
 
-<div id="second-break" class="sixteen columns">
+<div id="second-break" class="sixteen columns break">
   <div class="container">
     <div id="second-break-main" class="sixteen columns"><?php print render($page['second_break']); ?></div>
   </div>
@@ -60,7 +60,7 @@ $ColumnBottomWidth ='"four columns"';
   </div>
 </div>
 
-<div id="third-break" class="sixteen columns">
+<div id="third-break" class="sixteen columns break">
   <div class="container">
     <div id="third-break-main" class="sixteen columns"><?php print render($page['third_break']); ?></div>
   </div>

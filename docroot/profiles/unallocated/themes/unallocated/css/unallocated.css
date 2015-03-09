@@ -3,7 +3,6 @@
 
 #core   		                 	
 {
-
 background-color: #ffffff;
 min-height: 400px;
 }
@@ -12,13 +11,16 @@ min-height: 400px;
 {
 	background: #333;
 	height: auto;
-	color: white;
+	color: #ffaf08;
 }
 
-#top_zone li, #bottom_zone li
+#top_zone a, #bottom_zone a
 {
 	  text-decoration: none;
+	  color: d28e02;
 }
+
+
 
 #main-nav
 {

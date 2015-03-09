@@ -6,58 +6,18 @@
 @import "skeleton-1040.css";
 
 /* font declarations - use Oswald for headings, Lato for everything else */
-@font-face {
-    font-family: 'latoitalic';
-    src: url('lato/lato-italic-webfont.eot');
-    src: url('lato/lato-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lato/lato-italic-webfont.woff2') format('woff2'),
-         url('lato/lato-italic-webfont.woff') format('woff'),
-         url('lato/lato-italic-webfont.ttf') format('truetype'),
-         url('lato/lato-italic-webfont.svg#latoitalic') format('svg');
+@font-face 
+{
+    font-family: 'GermanLight';
+        src: url('GermanAuto/din1451alt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'latobold';
-    src: url('lato/lato-bold-webfont.eot');
-    src: url('lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lato/lato-bold-webfont.woff2') format('woff2'),
-         url('lato/lato-bold-webfont.woff') format('woff'),
-         url('lato/lato-bold-webfont.ttf') format('truetype'),
-         url('lato/lato-bold-webfont.svg#latobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'latoregular';
-    src: url('lato/lato-regular-webfont.eot');
-    src: url('lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lato/lato-regular-webfont.woff2') format('woff2'),
-         url('lato/lato-regular-webfont.woff') format('woff'),
-         url('lato/lato-regular-webfont.ttf') format('truetype'),
-         url('lato/lato-regular-webfont.svg#latoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswaldbold';
-    src: url('oswald/oswald-bold-webfont.eot');
-    src: url('oswald/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald/oswald-bold-webfont.woff2') format('woff2'),
-         url('oswald/oswald-bold-webfont.woff') format('woff'),
-         url('oswald/oswald-bold-webfont.ttf') format('truetype'),
-         url('oswald/oswald-bold-webfont.svg#oswaldbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswaldbook';
-    src: url('oswald/oswald-regular-webfont.eot');
-    src: url('oswald/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald/oswald-regular-webfont.woff2') format('woff2'),
-         url('oswald/oswald-regular-webfont.woff') format('woff'),
-         url('oswald/oswald-regular-webfont.ttf') format('truetype'),
-         url('oswald/oswald-regular-webfont.svg#oswaldbook') format('svg');
+
+@font-face 
+{
+    font-family: 'GermanOblique';
+        src: url('GermanAuto/din1451altG.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -68,31 +28,42 @@ html {
 body {
 
 	background: #333;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, sans-serif;
 
 	font-size: 14px;
 	font-size: 1.4rem;
 	color: #000;
 }
 a:link, a:visited {
-	color: #1459FA;
+	color: #ffaf08;
+	text-decoration:none;
 }
-a:hover {
-	color: #ff4500;
+a:hover, li a.active {
+	color: #c48500;
 }
+
+.break a:link, .break a:visited, .break h1, .break h2, .break h3{
+	color: #c48500;
+	text-decoration:none;
+}
+.break a:hover, .break a.active 
+{
+	color: #ffaf08;
+}
+
 h1, h2, h3 {
-	font-family: 'GeosansLight', san-serif;
+	font-family: 'GermanLight', san-serif;
 	text-transform: uppercase;
-	font-size: 20px;
-	font-size: 2rem;
-	color: #000;
+	font-size: 22px;
+	font-size: 2.2rem;
 	letter-spacing: 2px;
 	letter-spacing: .2rem;
+		color: #ffaf08;
 }
+
 h2 {
-	font-size: 18px;
-	font-size: 1.8rem;
-	margin: 25px 0 15px;
+	font-size: 19px;
+	font-size: 1.9rem;
 }
 h3 {
 	font-size: 16px;
