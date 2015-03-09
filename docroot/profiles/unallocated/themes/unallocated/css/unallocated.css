@@ -49,12 +49,11 @@ margin-bottom: .5em;
 
 #first-break-main
 {
-	
 }
 
 #second-break
 {
-	
+	height: 150px;	
 }
 
 #second-break-main
@@ -124,19 +123,20 @@ margin: 10px;
 
 
 
-.field-content
-{
-margin-left: auto;
-margin-right: auto;
-float: left;	
-}
-
 #first-break img, #second-break img
 {
 width: auto;
 width-min: 96px;
 width-max: 256px;
 height: 96px;
+}
+
+.views-row
+{
+margin-left: auto;
+margin-right: auto;
+float: left;	
+text-align: center;	
 }
 
 img
