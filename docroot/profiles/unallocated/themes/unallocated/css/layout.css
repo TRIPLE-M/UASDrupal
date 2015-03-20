@@ -35,11 +35,11 @@ body {
 	color: #000;
 }
 a:link, a:visited {
-	color: #ffaf08;
+	color: #c48500;
 	text-decoration:none;
 }
 a:hover, li a.active {
-	color: #c48500;
+	color: #ffaf08;
 }
 
 .break a:link, .break a:visited, .break h1, .break h2, .break h3{
@@ -58,8 +58,21 @@ h1, h2, h3 {
 	font-size: 2.2rem;
 	letter-spacing: 2px;
 	letter-spacing: .2rem;
-		color: #ffaf08;
+		color: #c48500;
 }
+
+.whiteShade h1, .whiteShade h2, .whiteShade h3 {
+		color: #ce0c09;
+}
+
+/**
+
+.whiteShade a  
+{
+color: #19871b
+}
+
+*/
 
 h2 {
 	font-size: 19px;

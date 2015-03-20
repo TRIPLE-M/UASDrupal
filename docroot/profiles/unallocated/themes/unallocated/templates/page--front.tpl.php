@@ -33,7 +33,7 @@ $ColumnBottomWidth ='"four columns"';
 </div>
 
 <div id='core' class="<?php print $fullWidth; ?>">
-  <div class="container">
+  <div class="container whiteShade">
 
     <div id="front-page-main" class="twelve columns alpha"><?php print render($page['front_slideshow']); ?></div>
     <div id ="front_slideshow" class="four columns omega"><?php print render($page['front_slideshow_sidebar']); ?></div>
@@ -53,7 +53,7 @@ $ColumnBottomWidth ='"four columns"';
   </div>
 </div>
 
-<div id="front-page-secondary" class="sixteen columns">
+<div id="front-page-secondary" class="sixteen columns whiteShade">
   <div class="container">
     <div id="front-page-secondary-left" class="eight columns alpha"><?php print render($page['front_second_left']); ?></div>
     <div id="front-page-secondary-right" class="eight columns omega"><?php print render($page['front_second_right']); ?></div>
